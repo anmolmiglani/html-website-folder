@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GrillHouse</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans&family=Prompt&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html"><img src="images/restaurant.png"> <h1>GrillHouse</h1></a>
+            </div>
+            <!-- logo close -->
+            <div class="nav">
+                <ul>
+                    <li class="hm"><a href="index.html">Home</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="product details.html">Product Details</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <!-- nav close -->
+            <div class="div1">
+                <a href="menu.html" class="btn-style">Order Now</a>
+            </div>
+        </div>
+    </div>
+    <!-- header close -->
+
+    <header class="hero">
+        <h1>Welcome to Our Restaurant</h1>
+      </header>
+    <!-- banner close -->
+
+    <section id="products">
+        <div class="container">
+            <h1 align="center">Our Menu</h1>
+            <div class="products">
+            <div class="product-box">
+                <img src="images/product1.jpg" alt="Pizza">
+                <h3>Pizza</h3>
+                <a href="#" class="product-details btn-style" data-modal="modal1" data-product-image="images/product1.jpg" data-product-id="1" data-product-title="Pizza" data-product-description="Pizza 18' inch size $20">View Details</a>
+            </div>
+            <div class="product-box">
+                <img src="images/product2.jpg" alt="Burger">
+                <h3>Burger</h3>
+                <a href="#" class="product-details btn-style" data-modal="modal2" data-product-image="images/product2.jpg"  data-product-id="2" data-product-title="Burger" data-product-description="Veg Burger $10">View Details</a>
+            </div>
+            <div class="product-box">
+                <img src="images/pasta.png" alt="Pasta">
+                <h3>Pasta</h3>
+                <a href="#" class="product-details btn-style" data-modal="modal3" data-product-image="images/pasta.png" data-product-id="3" data-product-title="Pasta" data-product-description="Cheesy Pasta $59">View Details</a>
+            </div>
+            </div>
+        </div>
+    </section>
+    <!-- product close -->
+
+    <div id="review">
+        <h1 align="center">Customer Reviews</h1>
+        <div class="container">
+                <div class="rv">
+                            <h4>"Cozy and Authentic Italian Restaurant"</h4>
+                            <p>La Piazza is a cozy and authentic Italian restaurant in Toronto. The pasta is homemade and cooked to perfection, the pizza is thin and crispy, and the salads are fresh and flavorful.</p>
+                            <h4>Emma Stone</h4>
+                            <span><i class="fa-solid fa-star"></i></span>
+                            <span><i class="fa-solid fa-star"></i></span>
+                            <span><i class="fa-solid fa-star"></i></span>
+                            <span><i class="fa-solid fa-star"></i></span>
+                            <span><i class="fa-solid fa-star"></i></span><br><br>
+
+                            <img src="images/testi1.jpg" alt="">
+                    </div>
+                <div class="rv">    
+                            <h4>"Unique and memorable dining experience"</h4>
+                            <p>If you are looking for a unique and memorable dining experience, look no further than O Noir in Toronto.</p>
+                            <h4>Liza William</h4>
+                            <span><i class="fa-solid fa-star"></i></span>
+                            <span><i class="fa-solid fa-star"></i></span>
+                            <span><i class="fa-solid fa-star"></i></span>
+                            <span><i class="fa-solid fa-star"></i></span>
+                            <span><i class="fa-solid fa-star"></i></span><br><br>
+
+                            <img src="images/testi3.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    <!-- review close -->
+
+    <footer>
+        <div class="container">
+            <div class="ft">
+                <h3>Contact Info</h3>
+                <p>Contact us: 1234 Restaurant Street, City, State ZIP</p>
+                <p>Phone: (123) 456-7890 | Email: info@restaurantwebsite.com</p>
+            </div>
+       
+            <div class="ft">
+                <h3>Social</h3>
+                <a href="https://www.facebook.com/"><img src="images/fb.png"></a>
+                <a href="https://twitter.com/"><img src="images/tw.png"></a>
+                <a href="https://www.instagram.com/"><img src="images/inst.png"></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal -->
+  <div class="modal-overlay" id="modal1">
+    <div class="modal">
+      <div class="modal-content">
+        <h3>Product 1</h3>
+        <img src="images/product1.jpg" alt="Product 1"><br>
+        <p>Product 1 details Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        
+        <a href="#" class="close-button" data-modal="modal1">&times;</a>
+      </div>
+    </div>
+  </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

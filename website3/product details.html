@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Product Details - Restaurant Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans&family=Prompt&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html"><img src="images/restaurant.png"> <h1>GrillHouse</h1></a>
+            </div>
+            <!-- logo close -->
+            <div class="nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li class="hm"><a href="product details.html">Product Details</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <!-- nav close -->
+            <div class="div1">
+                <a href="menu.html" class="btn-style">Order Now</a>
+            </div>
+        </div>
+    </div>
+    <!-- header close -->
+
+    <div class="product-details2">
+        <div class="container">
+            <div class="product-image">
+                <img src="images/m1.png" alt="Product Image">
+            </div>
+            <div class="product-info">
+                <h1>Veg Cheese Burger</h1>
+                <p>Treat yourself to a cheese burger that’s rich, cheesy, and delicious. Our cheese burger is made with a thick and succulent meat patty, topped with melted cheese and your choice of toppings. Whether you like it simple or loaded, our cheese burger will satisfy your cravings. You deserve it.</p>
+                <h2>$19.50</h2>
+                <label for="customization">Customization:</label>
+                <input type="text" id="customization" name="customization">
+                <button onclick="addToCart()">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="ft">
+                <h3>Contact Info</h3>
+                <p>Contact us: 1234 Restaurant Street, City, State ZIP</p>
+                <p>Phone: (123) 456-7890 | Email: info@restaurantwebsite.com</p>
+            </div>
+       
+            <div class="ft">
+                <h3>Social</h3>
+                <a href="https://www.facebook.com/"><img src="images/fb.png"></a>
+                <a href="https://twitter.com/"><img src="images/tw.png"></a>
+                <a href="https://www.instagram.com/"><img src="images/inst.png"></a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function addToCart() {
+            // Add logic for adding product to cart
+            alert('Product added to cart!');
+        }
+    </script>
+</body>
+</html>
